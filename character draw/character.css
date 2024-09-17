@@ -1,0 +1,50 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url(../imgs/forest.png);
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.btn2 {
+    margin-right: 30px;
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 600px;
+    border-radius: 8px;
+    padding: 15px 25px;
+    border: 0;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background-color: rgba(255, 255, 255, 0.25);
+    :hover {
+        background-color: #977c31;
+        border-radius: 10px;
+    }
+}
+
+.btn2 > a {
+    text-decoration: none;
+    color: #000000;
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.img2 {
+    max-width: 50%;
+}

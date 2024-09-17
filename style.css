@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url(./imgs/forest2.png);
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 40px;
+    padding: 40px;
+    border-radius: 20px;
+
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.btn1 { 
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600px;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 0;
+    background-color: transparent;
+    color: #222222;
+    :hover {
+        background-color: #8d4848;
+        border-radius: 10px;
+    }
+}
+
+.btn1 > a {
+    text-decoration: none;
+    color: #000000;
+
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
